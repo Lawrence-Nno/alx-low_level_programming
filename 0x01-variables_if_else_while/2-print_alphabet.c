@@ -5,6 +5,7 @@
 
 int main(void)
 {
-	while (int x = 'a'; x <= 'z'; x++)
+int x;
+	while (x = 'a'; x <= 'z'; x++)
 		putchar(x);
 }
