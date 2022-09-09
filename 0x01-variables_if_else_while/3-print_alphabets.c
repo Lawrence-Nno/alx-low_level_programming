@@ -3,7 +3,7 @@
 /**
  * main - This is the main function
  *
- * No return for this proggram
+ * Return: 0 is returned for this proggram
  */
 
 int main(void)
@@ -18,4 +18,5 @@ int main(void)
 		putchar(Y);
 
 	putchar('\n');
+	return (0);
 }
