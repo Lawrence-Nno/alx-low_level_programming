@@ -6,6 +6,6 @@
 int main(void)
 {
        char x;
-	while (x = 'a'; x <= 'z'; ++x)
+	for (x = 'a'; x <= 'z'; ++x)
 		putchar(x);
 }
