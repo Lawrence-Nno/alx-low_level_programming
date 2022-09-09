@@ -6,10 +6,13 @@
 
 int main(void)
 {
-	int n;
-	for (n = 'a'; n <= 'z'; n++)
+	int count = 0
+	char n;
+	while (count++ <= 9)
 	{
-		putchar(n);
+		for (n = 'a'; n <= 'z'; n++)
+			putchar(n);
+		putchar('\n');
 	}
-	putchar('\n');
+
 }
