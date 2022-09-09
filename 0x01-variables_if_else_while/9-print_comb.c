@@ -11,8 +11,8 @@ int main(void)
 
 	for (com = '0'; com <= '9'; com++)
 	{
-		putchar((num % 10) + '0');
-		if (num == 9)
+		putchar((com % 10) + '0');
+		if (com == 9)
 			continue;
 		putchar (',');
 		putchar (' ');
