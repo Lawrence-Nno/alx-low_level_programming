@@ -5,6 +5,7 @@
 
 int main(void)
 {
+	char c;
 	if (c >= 'a' && c <= 'z')
 		putchar(c);
 }
