@@ -1,7 +1,17 @@
-#include <unistd.h>
-#include <ctype.h>
-int print_alphabet(int c)
+#include "main.h"
+/**
+ * print_alphabet - this function prints lower case alphabets
+ *
+ * Return: Returns 0
+ */
+
+void print_alphabet(void)
 {
-	c = 'abcdefghijklmnopqrstuvwxyz';
-	return (write(1, &c'\n', 27));
+	int x;
+
+	for (x = 'a'; n <= 'z'; n++)
+	{
+		_putchar(x);
+	}
+	_putchar('\n');
 }
