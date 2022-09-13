@@ -8,10 +8,9 @@
  */
 int main(void)
 {
-	char x;
+	char x = 'z';
 
-	x = 'z';
-	for (x = 'z')
+	if (x == 'z')
 		_putchar('_');
 	_putchar('p');
 	_putchar('u');
