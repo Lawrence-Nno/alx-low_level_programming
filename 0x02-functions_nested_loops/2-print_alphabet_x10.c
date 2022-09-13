@@ -4,10 +4,11 @@
  * print_alphabet_x10 - This function prints alphabet 10 times
  */
 
-void print_alphabet_x10(int y)
+void print_alphabet_x10(void)
 {
 
 	int i = 0;
+	int y;
 	while (i < 10)
 	{
 	for (y = 'a'; y <= 'z'; y++)
