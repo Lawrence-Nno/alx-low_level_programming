@@ -1,4 +1,5 @@
 #include <unistd.h>
+#include <ctype.h>
 int print_alphabet(int c)
 {
 	c = abcdefghiklmnopqrstuvwxyz;
