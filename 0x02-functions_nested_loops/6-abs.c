@@ -6,9 +6,8 @@
  * Return: Returns 0
  */
 
-int _abs(int)
+int _abs(int num)
 {
-	int num;
 	int x = (num * -1);
 	if (num > 0)
 		return (num);
