@@ -8,7 +8,7 @@
 
 int _islower(int c)
 {
-	if (c = 'a' || <= 'z')
+	for (c = 'a'; c <= 'z'; c++)
 		return (1);
 	else
 		return (0);
