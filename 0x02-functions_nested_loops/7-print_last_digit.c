@@ -2,8 +2,8 @@
 
 /**
  * print_last_digit - This function prints the last digit of a number
- *@num: The number to be checked
- * :Return: Returns 0
+ * @num: The number to be checked
+ * Return: Returns x
  */
 
 int print_last_digit(int num)
