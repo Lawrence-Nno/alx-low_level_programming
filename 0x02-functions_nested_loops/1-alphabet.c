@@ -1,4 +1,6 @@
-void print_alphabet(void)
+#include <unistd.h>
+int print_alphabet(int alpha)
 {
-	return (write(1, abcdefghijklmnopqrstuvwxyz'\n', 27));
+	int alpha = abcdefghijklmnopqrstuvwxyz'\n';
+	return (write(1, alpha, 27));
 }
