@@ -11,4 +11,5 @@ int print_last_digit(int num)
 	int x = (num % 10);
 
 	_putchar(x);
+	return (x);
 }
