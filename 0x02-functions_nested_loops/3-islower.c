@@ -10,6 +10,6 @@ int _islower(int c)
 {
 	for (c = 'a'; c <= 'z'; c++)
 		return (1);
-	else
+	for (c != 'a'; c !<= 'z'; c++)
 		return (0);
 }
