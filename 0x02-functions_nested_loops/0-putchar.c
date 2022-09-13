@@ -11,7 +11,7 @@ int main(void)
 	char x;
 
 	x = 'z';
-	if (x = 'z')
+	for (x = 'z')
 		_putchar('_');
 	_putchar('p');
 	_putchar('u');
