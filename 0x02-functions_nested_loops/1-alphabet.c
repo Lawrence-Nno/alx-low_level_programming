@@ -1,6 +1,5 @@
 #include <unistd.h>
-int print_alphabet(int alpha)
+int print_alphabet(int)
 {
-	int alpha = abcdefghijklmnopqrstuvwxyz'\n';
-	return (write(1, alpha, 27));
+	return (write(1, abcdefghijklmnopqrstuvwxyz'\n', 27));
 }
