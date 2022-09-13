@@ -8,7 +8,7 @@
  * Return: Returns 1 if alpha and 0 if otherwise
  */
 
-int _isalpha(int c);
+int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 		return (1);
