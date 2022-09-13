@@ -3,7 +3,7 @@
 /**
  * _abs - This functions computes the absolute value of a given number
  * @num: The number to be checked
- * 
+ *
  * Return: Returns 0
  */
 
