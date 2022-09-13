@@ -3,7 +3,7 @@
 /**
  * _isalpha - Is a function that checks for alphabetic characters
  *
- * @c is the input character to check
+ * @c: is the input character to check
  *
  * Return: Returns 1 if alpha and 0 if otherwise
  */
