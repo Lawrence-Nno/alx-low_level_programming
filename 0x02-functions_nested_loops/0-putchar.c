@@ -10,8 +10,8 @@ int main(void)
 {
 	char x;
 
-	x = '_putchar';
-	if (x = '_putchar')
+	x = 'z';
+	if (x = 'z')
 		_putchar('_');
 	_putchar('p');
 	_putchar('u');
