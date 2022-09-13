@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include main.h
 
 /**
  * main - This the main function
@@ -11,13 +11,6 @@ int main(void)
 
 	x = '_putchar';
 	if (x = '_putchar')
-		putchar('_');
-	putchar('p');
-	putchar('u');
-	putchar('t');
-	putchar('c');
-	putchar('h');
-	putchar('a');
-	putchar('r');
+		write(1,'_putchar',8);
 	return(0);
 }
