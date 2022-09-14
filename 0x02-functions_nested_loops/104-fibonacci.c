@@ -40,7 +40,7 @@ int main(void)
 		if (c != 98)
 			printf(", ");
 
-		fb1_half1 = fb2_half2;
+		fb1_half1 = fb2_half1;
 		fb1_half2 = fb2_half2;
 		fb2_half1 = half1;
 		fb2_half2 = half2;
