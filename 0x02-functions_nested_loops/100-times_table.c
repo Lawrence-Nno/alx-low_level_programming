@@ -23,7 +23,7 @@ void print_times_table(int n)
 
 				prd = num * mul;
 
-				if (prod <= 99)
+				if (prd <= 99)
 					_putchar(' ');
 				if (prd <= 9)
 					_putchar(' ');
@@ -33,7 +33,7 @@ void print_times_table(int n)
 					_putchar((prd / 100) + '0');
 					_putchar (((prd / 10)) % 10 + '0');
 				}
-				else if (prod <= 99 && prod >= 10)
+				else if (prd <= 99 && prd >= 10)
 				{
 					_putchar((prd / 10) + '0');
 				}
