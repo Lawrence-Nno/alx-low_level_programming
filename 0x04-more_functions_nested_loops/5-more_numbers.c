@@ -7,22 +7,26 @@
 
 void more_numbers(void)
 {
-	int i = 0;
+	int i;
 	int n;
+	int m;
 
-	while (i < 10)
+	for (i = 0; i <= 9; i++)
 	{
-		for (n = '0'; n <= '14'; n++)
+		for (n = 48; n <= 49; n++)
 		{
-			if (n > 9)
+			for (m = 48; m <= 57; m++)
 			{
-				_putchar((n % 10) + 'n');
-			}
-			else
-			{
-				_putchar('n');
+				if (n != 48)
+				{
+					_putchar(n);
+				}
+				_putchar(m);
+				if (n == 49 && m == 52)
+				{
+					break;
+				}
 			}
 			_putchar('\n');
 		}
 	}
-}
