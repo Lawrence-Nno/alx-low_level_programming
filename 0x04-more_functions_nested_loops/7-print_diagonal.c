@@ -1,36 +1,32 @@
 #include "main.h"
 
 /**
- * print_diagonal - this function prints diagonal line using \
- * @n: is the number of \ to be printed
- * Return: no return for mow
+ * print_diagonal - this function draws a diagonal line
+ * @n: the number of lines to print
+ * Return: Nothing to return
  */
 
 void print_diagonal(int n)
 {
-	int row;
-	int col;
+	int o;
+	int p;
 
 	if (n > 0)
 	{
-		for (row = 0; row < n; row++)
+		for (p = 1; p <= n; p++)
 		{
-			for (col = 0; col <= row; col++)
+			for (o = 1; o <= p; o++)
 			{
-				if (row == col)
+				if (o != 1)
+					_putchar(' ');
+				if (o == p)
 				{
-					_putchar(92);
-				}
-				else
-				{
-					_putchar(32);
+					_putchar('\\');
+					_putchar('\n');
 				}
 			}
-			_putchar('\n');
 		}
 	}
 	else
-	{
 		_putchar('\n');
-	}
 }
