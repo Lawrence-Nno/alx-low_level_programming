@@ -27,7 +27,7 @@ void more_numbers(void)
 					break;
 				}
 			}
-			_putchar('\n');
 		}
+		_putchar('\n');
 	}
 }
