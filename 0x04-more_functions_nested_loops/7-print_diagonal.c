@@ -3,8 +3,6 @@
 /**
  * print_diagonal - this function prints diagonal line using \
  * @n: is the number of \ to be printed
- * @row: the row of the diagonal
- * @col: the column
  * Return: no return for mow
  */
 
