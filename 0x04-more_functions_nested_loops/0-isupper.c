@@ -5,7 +5,8 @@
  *
  * @c: is the input to be checked
  *
- * Return: Returns 1 if uppercase and 0 if lowercase
+ * Return: Returns 1 if uppercase
+ * Return: Returns 0 f lowercase
  */
 
 int _isupper(int c)
