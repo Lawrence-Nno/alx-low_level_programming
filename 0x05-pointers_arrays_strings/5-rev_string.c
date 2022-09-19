@@ -9,11 +9,11 @@
 void rev_string(char *s)
 {
 	int i = 0, n = 0;
-	char t;
+	char t[];
 
 	while (*(s + i))
 	{
-		*(t + i) = *(s + i)
+		*(t + i) = *(s + i);
 		i++;
 	}
 
