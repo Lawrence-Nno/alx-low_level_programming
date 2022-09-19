@@ -2,7 +2,7 @@
 
 /**
  * reset_to_98 - This Function resets the value of integer to 98
- * @*n: Is the integer to be resetted
+ * @n: Is the integer to be resetted
  * Return: Returns 0;
  */
 
