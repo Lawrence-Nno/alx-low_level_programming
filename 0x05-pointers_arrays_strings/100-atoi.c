@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _atoi - This function finds and prints first number in a string as an integer
+ * _atoi - This func finds and prints 1st number in a strng as an int
  * @s: The string to convert to an integer and print
  * Return: Nth for now
  */
