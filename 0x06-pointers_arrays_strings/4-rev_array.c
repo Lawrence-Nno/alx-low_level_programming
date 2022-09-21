@@ -24,7 +24,7 @@ void reverse_array(int *a, int n)
 	{
 		com = *(first + j);
 		*(first + j) = *(last + i);
-		*(final + i) = com;
+		*(last + i) = com;
 		j++;
 		i--;
 	}
