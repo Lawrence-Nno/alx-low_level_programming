@@ -2,8 +2,8 @@
 
 /**
  * _strncat - This function concatenates two strings without exceeding n bytes
- * @dest: The first string to be concatenates
- * @src: The second string
+ * @*dest: The first string to be concatenates
+ * @*src: The second string
  * @n: The number of bytes to be used at most
  * Return: Returns dest
  */
