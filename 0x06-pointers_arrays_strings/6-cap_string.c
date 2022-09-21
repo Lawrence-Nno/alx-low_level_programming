@@ -2,6 +2,7 @@
 
 /**
  * cap_string - This func capitalizes all words of a string
+ * @s: The string whose words will be capitalized
  * Return: Returns a character
  */
 
