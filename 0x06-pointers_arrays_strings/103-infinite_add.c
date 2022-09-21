@@ -45,8 +45,8 @@ char *infinite_add(char *n1, char *n2 char *r, int size_r)
 		if (j > 0)
 			j--, n = *(n2 + j) - 48;
 		else
-			m = 0;
-		k--, size_r--;
+			n = 0;
+		l--, size_r--;
 	}
 	if (*(r) == '0')
 		return (r + 1);
