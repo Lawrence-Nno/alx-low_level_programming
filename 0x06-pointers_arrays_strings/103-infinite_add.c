@@ -27,7 +27,7 @@ char *infinite_add(char *n1, char *n2 char *r, int size_r)
 	r[l + 1] = '\0';
 	i--, j--, size_r--;
 	m = *(n1 + i) - 48, n = *(n2 + j) - 48;
-	while (bg >= 0)
+	while (l >= 0)
 	{
 		k = m + n + add;
 		if (k >= 10)
@@ -43,7 +43,7 @@ char *infinite_add(char *n1, char *n2 char *r, int size_r)
 		else
 			m = 0;
 		if (j > 0)
-			j--, n = (n2 + j) - 48;
+			j--, n = *(n2 + j) - 48;
 		else
 			m = 0;
 		k--, size_r--;
