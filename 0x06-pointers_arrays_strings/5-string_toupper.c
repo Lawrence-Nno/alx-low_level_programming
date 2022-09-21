@@ -2,6 +2,7 @@
 
 /**
  * string_toupper - This func changes all lowercase to uppercase
+ * @ch: The character whoce case will change
  * Return: Returns the uppercase characters
  */
 
