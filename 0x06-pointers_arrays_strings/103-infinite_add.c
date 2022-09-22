@@ -10,7 +10,7 @@
  * Return: Returns the pointer
  */
 
-char *infinite_add(char *n1, char *n2 char *r, int size_r)
+char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
 	int i = 0, j = 0, k, l, m, n, add = 0;
 
