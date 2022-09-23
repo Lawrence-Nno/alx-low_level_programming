@@ -18,7 +18,7 @@ void print_buffer(char *b, int size)
 	if (size <= 0)
 	{
 		printf("\n");
-		return;
+		break;
 	}
 	while (n < size)
 	{
@@ -52,4 +52,5 @@ void print_buffer(char *b, int size)
 		printf("\n");
 		n += 10;
 	}
+	return(0);
 }
