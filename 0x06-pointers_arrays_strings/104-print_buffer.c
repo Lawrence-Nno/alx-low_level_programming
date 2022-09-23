@@ -13,6 +13,7 @@ void print_buffer(char *b, int size)
 	int n = 0;
 	int i;
 	int j;
+	int c;
 
 	if (size <= 0)
 	{
@@ -40,7 +41,7 @@ void print_buffer(char *b, int size)
 		}
 		for (i = 0; i < j; i++)
 		{
-			int c = *(b + n + i);
+			c = *(b + n + i);
 
 			if (c < 32 || c > 132)
 			{
