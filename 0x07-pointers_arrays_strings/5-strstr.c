@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strstr - This func finds the first occurence of a substring
+ * _strstr - This func finds the 1st occurence of a substring
  * @haystack: The string to search
  * @needle: The substring to find
- * Return: Nothing
+ * return: Nothing
  */
 
 char *_strstr(char *haystack, char *needle)
