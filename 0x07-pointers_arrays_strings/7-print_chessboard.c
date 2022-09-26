@@ -8,18 +8,18 @@
 
 void print_chessboard(char (*a)[8])
 {
-	unsigned int a, b;
+	unsigned int m, n;
 
-	a = 0;
-	while (a < 8)
+	m = 0;
+	while (m < 8)
 	{
-		b = 0;
-		while (b < 8)
+		n = 0;
+		while (n < 8)
 		{
-			_putchar(a[a][b]);
-			b++;
+			_putchar(a[m][n]);
+			n++;
 		}
 		_putchar('\n');
-		a++;
+		m++;
 	}
 }
