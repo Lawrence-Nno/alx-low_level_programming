@@ -20,6 +20,6 @@ void print_chessboard(char (*a)[8])
 			b++;
 		}
 		_putchar('\n');
-		a++
+		a++;
 	}
 }
