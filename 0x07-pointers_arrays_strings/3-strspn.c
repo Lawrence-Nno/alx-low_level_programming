@@ -7,7 +7,7 @@
  * @Return: Number of desired bytes
  */
 
-unsigned int _strspn(char *s, char *accept);
+unsigned int _strspn(char *s, char *accept)
 {
 	unsigned int b = 0;
 	int i;
