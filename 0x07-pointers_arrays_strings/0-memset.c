@@ -11,12 +11,12 @@ include "main.h"
 char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
-	unsigned char *s;
+	unsigned char *mem;
 	value = b;
 
 	for (i = 0; i < n; i++)
 	{
-		s[i] = value;
+		mem[i] = value;
 	}
-	return (s);
+	return (mem);
 }
