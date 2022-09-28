@@ -18,7 +18,6 @@ int is_palindrome(char *s)
 
 /**
  * pali - This func obtains length of string a
- * @n: lenght of string a
  * @a: the string to count
  * Return: Returns 1
  */
@@ -26,7 +25,7 @@ int is_palindrome(char *s)
 int pali(char *a)
 {
 	int n;
-	
+
 	n = 0;
 	if (*a != 0)
 	{
