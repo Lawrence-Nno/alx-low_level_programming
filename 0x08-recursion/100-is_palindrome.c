@@ -51,5 +51,5 @@ int palin(char *a, int n)
 		return (0);
 	}
 	else
-	return (palin((a + 1), (n - 2)));
+	return (palin(a + 1, n - 2));
 }
