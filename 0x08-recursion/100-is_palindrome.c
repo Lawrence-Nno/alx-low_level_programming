@@ -11,6 +11,8 @@ int is_palindrome(char *s)
 	int n;
 
 	n = pali(s, 0);
+	if (n <= 1)
+		return (1);
 	return (palin(s, 1));
 }
 
@@ -23,11 +25,13 @@ int is_palindrome(char *s)
 
 int pali(char *a, int n)
 {
-	if (*a == 0)
+
+	n = 0;
+	if (*a != 0)
 	{
-		return (n - 1);
+		n++;
+		return (n + pali(a + 1));
 	}
-	return (pali(a + 1, n + 1));
 }
 
 /**
@@ -39,13 +43,13 @@ int pali(char *a, int n)
 
 int palin(char *a, int n)
 {
-	if (*a != *(a + n))
-	{
-		return (0);
-	}
-	else if (*a == 0)
+	if (n <= 1)
 	{
 		return (1);
+	}
+	else if (*a != a[n - 1])
+	{
+		return (0);
 	}
 	else
 	return (palin(a + 1, n - 2));
