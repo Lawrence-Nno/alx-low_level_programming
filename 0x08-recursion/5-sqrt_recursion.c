@@ -2,7 +2,7 @@
 
 /**
  * _sqrt_recursion - This func returns the natural squareroot of a no
- * sqr: - THis function finds the square of numbers
+ * sqr - This function finds the square of numbers.
  * @a: The square of the number b
  * @b: The numbers to square
  * @n: The number to find the squareroot of
@@ -27,5 +27,5 @@ int sqr(int a, int b)
 
 int _sqrt_recursion(int n)
 {
-	return (sqr(n, 1));
+	return (sqr(int n, 1));
 }
