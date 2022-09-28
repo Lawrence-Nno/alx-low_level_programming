@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * is_prime_numnber - THis func identifies a prime number
+ * is_prime_number - THis func identifies a prime number
  * @n: The number to check.
  * Return: returns 1 if number is a prime number
  */
@@ -34,6 +34,6 @@ int prime(int a, int b)
 	}
 	else
 	{
-		return((prime(a, b + 1)));
+		return ((prime(a, b + 1)));
 	}
 }
