@@ -2,6 +2,9 @@
 
 /**
  * _sqrt_recursion - This func returns the natural squareroot of a no
+ * sqr - THis function finds the square of numbers
+ * @a: The square of the number b
+ * @b: The numbers to square
  * @n: The number to find the squareroot of
  * Return: Returns the square root
  */
