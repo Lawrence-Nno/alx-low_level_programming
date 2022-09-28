@@ -32,6 +32,7 @@ int pali(char *a, int n)
 		n++;
 		return (n + pali(a + 1));
 	}
+	return (n);
 }
 
 /**
