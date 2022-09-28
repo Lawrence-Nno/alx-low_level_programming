@@ -45,13 +45,11 @@ int pali(char *a)
 int palin(char *a, int n)
 {
 	if (n <= 1)
-	{
 		return (1);
-	}
-	else if (*a != a[n - 1])
+	if (*a != a[n - 1])
 	{
 		return (0);
 	}
 	else
-	return (palin(a + 1, n - 2));
+	return (palin((a + 1), (n - 2)));
 }
