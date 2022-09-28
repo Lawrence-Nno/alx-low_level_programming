@@ -23,9 +23,10 @@ int is_palindrome(char *s)
  * Return: Returns 1
  */
 
-int pali(char *a, int n)
+int pali(char *a)
 {
-
+	int n;
+	
 	n = 0;
 	if (*a != 0)
 	{
