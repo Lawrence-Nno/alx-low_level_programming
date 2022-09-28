@@ -1,11 +1,9 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - This func returns the natural squareroot of a no
- * sqr - This function finds the square of numbers.
+ * sqr - This func returns the natural squareroot of a no
  * @a: The square of the number b
  * @b: The numbers to square
- * @n: The number to find the squareroot of
  * Return: Returns the square root
  */
 
@@ -25,7 +23,13 @@ int sqr(int a, int b)
 	}
 }
 
+/**
+ * _sqrt_recursion - This func finds the squaretoot of numbers
+ * @n: The number to find the squareroot of
+ * Return: Returns the squareroot
+ */
+
 int _sqrt_recursion(int n)
 {
-	return (sqr(int n, 1));
+	return (sqr(n, 1));
 }
