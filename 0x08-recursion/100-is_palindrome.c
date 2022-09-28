@@ -8,7 +8,7 @@
 
 int is_palindrome(char *s)
 {
-	int n;
+	int n = 0;
 
 	n = pali(s, 0);
 	return (palin(s, 1));
