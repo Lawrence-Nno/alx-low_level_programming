@@ -11,3 +11,4 @@ int prime(int a, int b);
 int is_palindrome(char *s);
 int pali(char *a, int n);
 int palin(char *a, int n);
+int wildcmp(char *s1, char *s2);
