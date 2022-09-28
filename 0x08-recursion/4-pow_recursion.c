@@ -4,7 +4,7 @@
  * _pow_recursion - This func returns the value of x raised to y
  * @x: The number to power multiply
  * @y: The number to raise the power to
- * Return; Returns the answer
+ * Return: Returns the answer
  */
 
 int _pow_recursion(int x, int y)
