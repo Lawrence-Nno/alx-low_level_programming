@@ -8,7 +8,7 @@
 
 int is_palindrome(char *s)
 {
-	int n = 0;
+	int n;
 
 	n = pali(s, 0);
 	return (palin(s, 1));
@@ -27,10 +27,7 @@ int pali(char *a, int n)
 	{
 		return (n - 1);
 	}
-	else
-	{
-		return (pali(a + 1, n + 1));
-	}
+	return (pali(a + 1, n + 1));
 }
 
 /**
@@ -51,7 +48,5 @@ int palin(char *a, int n)
 		return (1);
 	}
 	else
-	{
-		return (palin(a + 1, n - 2));
-	}
+	return (palin(a + 1, n - 2));
 }
