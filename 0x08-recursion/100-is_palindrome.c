@@ -10,7 +10,7 @@ int is_palindrome(char *s)
 {
 	int n;
 
-	n = pali(s, 0);
+	n = pali(s);
 	if (n <= 1)
 		return (1);
 	return (palin(s, 1));
