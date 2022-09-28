@@ -34,6 +34,6 @@ int prime(int a, int b)
 	}
 	else
 	{
-		return((prime(a, b + 1));
+		return((prime(a, b + 1)));
 	}
 }
