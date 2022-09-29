@@ -11,7 +11,7 @@ int is_palindrome(char *s)
 	int n;
 
 	n = pali(s);
-	if (n == 0 || n == 1)
+	if (n <= 1)
 		return (1);
 	return (palin(s, 1));
 }
