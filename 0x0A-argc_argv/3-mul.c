@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	mul = argv[1] * argv[2];
 	if (argc == 3)
 	{
-		printf("%d\n", mul)
+		printf("%d\n", mul);
 	}
 	else
 	{
