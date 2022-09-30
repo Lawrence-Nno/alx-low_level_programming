@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 
 	a = argv[1];
 	b = argv[2];
-	mul = argv[1] * argv[2];
+	mul = a * b;
 	if (argc == 3)
 	{
 		printf("%d\n", mul);
