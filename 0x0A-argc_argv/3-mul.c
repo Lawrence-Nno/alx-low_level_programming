@@ -9,13 +9,9 @@
 
 int main(int argc, int *argv[])
 {
-	int a;
-	int b;
 	int mul;
 
-	a = argv[1];
-	b = argv[2];
-	mul = a * b;
+	mul = *argv[1] * *argv[2];
 	if (argc == 3)
 	{
 		printf("%d\n", mul);
