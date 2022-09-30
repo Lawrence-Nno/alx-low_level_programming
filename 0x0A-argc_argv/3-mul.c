@@ -7,11 +7,13 @@
  * Return: Returns 0 if successful and 1 if there is error
  */
 
-int main(int argc, int *argv[])
+int main(int argc, char *argv[])
 {
-	int mul;
+	int a, b, mul;
 
-	mul = *argv[1] * *argv[2];
+	a = atoi(argv[1]);
+	b = atoi(argv[2]);
+	mul = a * b;
 	if (argc == 3)
 	{
 		printf("%d\n", mul);
