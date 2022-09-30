@@ -15,13 +15,13 @@ int main(int argc, char *argv[])
 	int j;
 	int sum = 0;
 
-	for(i = 1; i < argc; i++)
+	for (i = 1; i < argc; i++)
 	{
 		for (j = 0; argv[i][j]; j++)
 		{
 			if (isdigit(argv[i][j]) == 0)
 			{
-				printf("Error");
+				printf("Error\n");
 				return (1);
 			}
 		}
