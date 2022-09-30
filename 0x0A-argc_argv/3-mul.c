@@ -7,7 +7,7 @@
  * Return: Returns 0 if successful and 1 if there is error
  */
 
-int main(int argc, char *argv[])
+int main(int argc, int *argv[])
 {
 	int a;
 	int b;
