@@ -10,31 +10,40 @@
 
 int main(int argc, char *argv[])
 {
-	int i, a, b, n = 0;
-	int cent[5] = {25, 10, 5, 2, 1};
+	int cent;
+	int c = 0;
 
 	if (argc != 2)
 	{
-		printf("Error\n");
+		puts("Error");
 		return (1);
 	}
-	i = atoi(argv[1]);
-	if (i <= 0)
+	cent = atoi(argv[1]);
+	while (cent > 0)
 	{
-		printf("0\n");
-		return (1);
-	}
-	else
-	{
-		for (a = 0; a < 5; a++)
+		c++
+		if ((cent - 25) >= 0)
 		{
-			b = i / cent[i];
-			i -= b * cent[i];
-			n += b;
-			if (i == 0)
-				break;
+			cent -= 25;
+			continue;
 		}
+		if ((cent - 10) >= 0)
+		{
+			cent -= 10;
+			continue;
+		}
+		if ((cent - 5) >= 0)
+		{
+			cent -= 5;
+			continue;
+		}
+		if ((cent - 2) >= 0)
+		{
+			cent -= 2;
+			continue;
+		}
+		cent--;
 	}
-	printf("%d\n", n);
+	printf("%d\n", c);
 	return (0);
 }
