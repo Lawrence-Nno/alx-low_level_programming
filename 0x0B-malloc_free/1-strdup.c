@@ -1,6 +1,6 @@
 #include "main.h"
-#include "stdio.h"
-#include "stdlib.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * _strdup - This func returns a pointer to a new string
@@ -21,12 +21,12 @@ char *_strdup(char *str)
 	if (newstr != NULL)
 	{
 		for (i = 0; str[i] != '\0'; i++)
-			new str[i] = str[i];
+			newstr[i] = str[i];
 	}
 	else
 	{
 		return (NULL);
 	}
 	newstr[i] = '\0';
-	return (strnew);
+	return (newstr);
 }
