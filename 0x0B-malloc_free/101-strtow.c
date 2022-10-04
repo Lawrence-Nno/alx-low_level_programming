@@ -52,15 +52,15 @@ char **strtow(char *str)
 		;
 	if (str == NULL)
 		return (NULL);
-	wordc = wordcounter(str, 0, 0);
+	wordc = wc(str, 0, 0);
 	if (len == 0 || wordc == 0)
 		return (NULL);
 	ptr = malloc((wordc + 1) * sizeof(void *));
-	if (p == NULL)
+	if (ptr == NULL)
 		return (NULL);
 	for (i = 0, wordlen = 0; i < wordc; i++)
 	{
-		wordlen = wordcounter(str, i + 1, 0);
+		wordlen = wc(str, i + 1, 0);
 		if (i == 0 && str[i] != ' ')
 			wordlen++;
 		ptr[i] = malloc(wordlen * sizeof(char) + 1);
@@ -71,7 +71,7 @@ char **strtow(char *str)
 			free(ptr);
 			return (NULL);
 		}
-		getfc = wordcounter(str, i + 1, 1);
+		getfc = wc(str, i + 1, 1);
 		if (str[0] != ' ' && i > 0)
 			getfc++;
 		else if (str[0] == ' ')
