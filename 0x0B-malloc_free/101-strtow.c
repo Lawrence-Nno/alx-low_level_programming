@@ -20,9 +20,7 @@ char **strtow(char *str)
 	if (array == NULL)
 		return (NULL);
 	for (c = 0; c < a; c++)
-	{
 		array[c] = str[c];
-	}
 	a = c;
 	for (c = 0; c < b; c++)
 	{
