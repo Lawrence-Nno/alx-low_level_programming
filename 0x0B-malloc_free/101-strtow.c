@@ -24,7 +24,7 @@ char **strtow(char *str)
 	a = c;
 	for (c = 0; c < b; c++)
 	{
-		array[a] = str[c];
+		array[c] = str[c];
 		a++;
 	}
 	array[a] = '\0';
