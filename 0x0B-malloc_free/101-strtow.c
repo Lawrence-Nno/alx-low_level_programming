@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * wc - This func counts words and the letters it contains
@@ -65,7 +66,7 @@ char **strtow(char *str)
 		ptr[i] = malloc(wordlen * sizeof(char) + 1);
 		if (ptr[i] == NULL)
 		{
-			for (; i >= 0; --i)
+			for ( ; i >= 0; --i)
 				free(ptr[i]);
 			free(ptr);
 			return (NULL);
