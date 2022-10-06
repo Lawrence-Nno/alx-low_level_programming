@@ -1,6 +1,8 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+int _atoi(char *s);
+int _isdigit(char *argv);
 
 /**
  * _isdigit - Checks if strings are digits
