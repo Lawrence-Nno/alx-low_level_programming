@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * main - The main function
+ * main - This func multiplies two numbers passed as arguments
  * @argc: argument count
  * @argv: arguments passed to the command line terminal
  * Return: Returns 0 if successful and 98 if otherwise
@@ -11,21 +11,26 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
+	int a, b;
+	unsigned long mul;
 
-	malloc();
 	if (argc != 3)
 	{
 		printf("Error\n");
 		exit(98);
 	}
-	for (i = 1; i < argc; i++)
+	for (a = 1; a < argc; a++)
 	{
-		if (isdigit(argv[i]))
+		for (b = 0; argv[a][b] != '\0'; b++)
 		{
-			printf("Error\n");
-			exit(98);
+			if (argv[a][b] > 57 || argv[a][b] < 48)
+			{
+				printf("Error\n");
+				exit(98);
+			}
 		}
 	}
+	mul = atol(argv[1]) * atol(argv[2]);
+	printf("%lu\n", mul);
 	return (0);
 }
