@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-int _atoi(char *s);
 int _isdigit(char *argv);
 
 /**
@@ -23,29 +22,6 @@ int _isdigit(char *argv)
 			return (1);
 	}
 	return (0);
-}
-
-/**
- * _atoi - converts a string to the values they rep in ascii
- * @s: a pointer pointing to the string
- * Return: Returns the value of digits
- */
-
-int _atoi(char *s)
-{
-	int i, r;
-
-	i = r = 0;
-	while (s[i])
-	{
-		if (s[i] >= '0' && s[i] <= '9')
-		{
-			r *= 10;
-			r += (s[i] - '0');
-		}
-		i++;
-	}
-	return (r);
 }
 
 /**
