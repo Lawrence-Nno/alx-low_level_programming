@@ -10,7 +10,7 @@
  * Return: Returns a pointer to the new memory block
  */
 
-void *realloc(void *ptr, unsigned int old_size, unsigned int new_size)
+void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
 	void *new;
 	unsigned int i;
@@ -33,5 +33,6 @@ void *realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 
 	for (i = 0; i < old_size && i < new_size; i++)
 		*((unsigned char *)new + i) = *((unsigned char *)ptr + i);
+
 	return (new);
 }
