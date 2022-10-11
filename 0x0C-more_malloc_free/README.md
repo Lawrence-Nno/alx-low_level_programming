@@ -1,3 +1,4 @@
+This directory is about more projects done under C Malloc topic.
 Below are a little description of the files in this directory:
 
 0-malloc_checked.c: a function that allocates memory using malloc.
