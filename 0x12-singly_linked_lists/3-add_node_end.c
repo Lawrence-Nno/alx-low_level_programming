@@ -7,7 +7,7 @@
  * Return: Returns address of new element or NULL if otherwise
  */
 
-list_t *add_node_end(list_t *head, const char *str)
+list_t *add_node_end(list_t **head, const char *str)
 {
 	char *duplicate;
 	int len;
