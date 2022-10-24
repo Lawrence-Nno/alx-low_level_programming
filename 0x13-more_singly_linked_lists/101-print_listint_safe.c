@@ -28,7 +28,7 @@ size_t looped_listint_len(const listint_t *head)
 			{
 				nodes++;
 				cat = cat->next;
-				mouse = mouse->next
+				mouse = mouse->next;
 			}
 			cat = cat->next;
 			while (cat != mouse)
