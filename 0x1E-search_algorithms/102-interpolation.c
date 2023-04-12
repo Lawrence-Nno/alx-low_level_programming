@@ -12,6 +12,8 @@
   *
   * Description: Prints a value every time it is compared in the array..
   */
+
+
 int interpolation_search(int *array, size_t size, int value)
 {
 	size_t v, le, ri;
@@ -21,8 +23,7 @@ int interpolation_search(int *array, size_t size, int value)
 
 	for (le = 0, ri = size - 1; ri >= le;)
 	{
-		v = le + (((double)(ri - le) / (array[ri] - array[le]))
-		    * (value - array[le]));
+		v = le + (((double)(ri - le) / (array[ri] - array[le])) * (value - array[le]));
 		if (v < size)
 			printf("Value checked array[%ld] = [%d]\n", v, array[v]);
 		else
