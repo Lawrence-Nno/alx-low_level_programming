@@ -22,7 +22,7 @@ int binary_search(int *array, size_t size, int value)
 	for (left = 0, right = size - 1; right >= left;)
 	{
 		printf("Searching in array: ");
-		for (v = left; v < right; i++)
+		for (v = left; v < right; v++)
 			printf("%d, ", array[v]);
 		printf("%d\n", array[v]);
 
